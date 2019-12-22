@@ -1,0 +1,40 @@
+import {
+  Story,
+  Preview,
+  Props,
+  Source,
+  Meta,
+} from '@storybook/addon-docs/blocks';
+import { Button } from '@storybook/react/demo';
+
+
+<Meta
+  title="MDX/test"
+  component={Button}
+/>
+
+# Selected
+
+<Story id="." />
+
+<Source id="." />
+
+<Props of="." />
+
+<Preview>
+  <Story name="hello story">
+    <Button onClick={() => alert('clicked')}>hello world</Button>
+  </Story>
+  <Story name="goodbye">
+    <Button onClick={() => alert('clicked')}>goodbye world</Button>
+  </Story>
+  <Story name="with icons">
+    <Button onClick={() => alert('clicked')}>🤘🚀💯</Button>
+  </Story>
+  <Story name="plaintext">Plain text</Story>
+</Preview>
+
+<Story name="solo story">
+  <Button onClick={() => alert('clicked')}>solo</Button>
+</Story>
+
