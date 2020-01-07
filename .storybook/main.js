@@ -4,6 +4,6 @@ module.exports = {
     './*.stories.(js|mdx)',
   ],
   addons: [
-    './dist',
+    './dist/register',
   ],
 };

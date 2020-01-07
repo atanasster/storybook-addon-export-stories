@@ -1,10 +1,9 @@
 {
   "name": "storybook-addon-export-stories",
-  "version": "1.0.00",
+  "version": "1.0.1",
   "description": "A storybook addon to export all stories to a json file",
   "keywords": [
     "addon",
-    "grommet",
     "react",
     "storybook"
   ],
@@ -25,20 +24,20 @@
     "pub": "pushd ./ && npm run build && cd dist && npm publish && popd"
   },
   "peerDependencies": {
-    "@storybook/addon-docs": ">= 5.3.0-rc.0",
-    "@storybook/addons": ">= 5.3.0-rc.0",
-    "@storybook/api": ">= 5.3.0-rc.0",
-    "@storybook/components": ">= 5.3.0-rc.0",
-    "@storybook/react": ">= 5.3.0-rc.0",
+    "@storybook/addon-docs": ">= 5.3.0-rc.11",
+    "@storybook/addons": ">= 5.3.0-rc.11",
+    "@storybook/api": ">= 5.3.0-rc.11",
+    "@storybook/components": ">= 5.3.0-rc.11",
+    "@storybook/react": ">= 5.3.0-rc.11",
     "react": ">= 16.8.3",
     "react-dom": ">= 16.8.3"
   },
   "devDependencies": {
-    "@storybook/addon-docs": "^5.3.0-rc.0",
-    "@storybook/addons": "^5.3.0-rc.0",
-    "@storybook/api": "^5.3.0-rc.0",
-    "@storybook/components": "^5.3.0-rc.0",
-    "@storybook/react": "^5.3.0-rc.0",
+    "@storybook/addon-docs": "^5.3.0-rc.11",
+    "@storybook/addons": "^5.3.0-rc.11",
+    "@storybook/api": "^5.3.0-rc.11",
+    "@storybook/components": "^5.3.0-rc.11",
+    "@storybook/react": "^5.3.0-rc.11",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
